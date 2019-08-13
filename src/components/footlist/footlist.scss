@@ -1,0 +1,95 @@
+.footone {
+    font-size: 0.857em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "AvenirNextLTCom-Regular",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  
+  }
+  .footouter{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    background: #f2f2f2;
+    
+  
+  ol { 
+      counter-reset: item;
+      list-style-type: none;
+  }
+  li { 
+  display: block;
+  line-height: 2;
+  }
+  li:before { 
+      content: counter(item) "  "; 
+      counter-increment: item; 
+      margin-left: -2em;
+      width: 1.3em;
+      text-align: right;
+      float: left;
+      font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+      font-weight: bold;
+      
+  
+  }
+  }
+  
+  @media(max-width: 768px) {
+    
+    .footouter {
+    width: 100% !important;
+    background: #ffffff !important;
+
+    }
+  }
+
+  @media(max-width: 1000px) {
+    .footouter {
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      width: 100% !important;
+
+    }
+    
+
+    .fuckthiscon{
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      width: 100% !important;
+       
+        
+  }
+}
+
+
+
+  .fuckthiscon{
+
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    hr{
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+
+  }
+  .diclosure{
+    background: #f2f2f2;
+
+  }
+
+  .diclosure-content{
+   
+    padding-bottom: 1px;
+  }
+  .disclosuefont{
+    font-family: AvenirNextLTW01-DemiCn, Arial, sans-serif;
+    font-size: 18px;
+  }

@@ -7,12 +7,24 @@ block pageTitle
     title Home Page
 
 block content
-    .container 
-        h2 Some stuff !!
+    include ../../components/navbreadcrumb/navbreadcrumb.pug
+    include ../../components/breadcrumb/breadcrumb.pug
+    include ../../components/jumbohero/jumbohero.pug
+    include ../../components/learn/learn.pug
+    include ../../components/stickynav/stickynav.pug
+    include ../../components/carousel/carousel.pug
+    include ../../components/fourdiv/fourdiv.pug
+    include ../../components/articlewithimage/artwimage.pug
+    include ../../components/articlewithinfograph/artinfo.pug
+    include ../../components/footlist/footlist.pug
+    include ../../components/footsocial/footsocial.pug
+    include ../../components/footermenu/footmenu.pug
+    include ../../components/legalfooter/legalfooter.pug
+    include ../../components/socialshare/socialshare.pug
 
-        include ../../components/accordion/accordion.pug
 
 block pageScripts
     script(src="homepage.js")
+
 
 

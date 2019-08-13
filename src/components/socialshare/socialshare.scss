@@ -1,0 +1,83 @@
+.socialshare{
+    position: fixed;
+    left: 20px !important; 
+    top: 316px;
+    #top{
+      background-position-y: -151px;
+    }
+    #messages{
+      background-position-y: -120px;
+    }
+    #mail{
+      background-position-y: 0px;
+    }
+    #facebook{
+      background-position-y: -30px;
+    }
+    #linkedin{
+      background-position-y: -90px;
+    }
+    #twitter{
+      background-position-y: -60px;
+    }
+     ul{
+  
+  padding-left: 0px;
+    }
+    li{
+      list-style-type: none;
+    }
+    a{
+  
+  display: block;
+      
+      background-image: url("https://www.americanfunds.com/content/dam/Shared%20Content/Images/Icons/Social/socialshare_vertical.png");
+      font-size: 0px;
+      width: 30px;
+      height: 30px;
+      background-size: cover;
+    }
+    
+    
+  }
+  
+  @media(max-width: 1089px){
+      .socialshare{
+      left: 0px !important;
+      background-color: white;
+      bottom: 0px;
+      top: unset;
+      width: 100%;
+        
+    #top{
+      background-position-y: -215px;
+    }
+    #messages{
+      background-position-y: -171px;
+    }
+    #mail{
+      background-position-y: 0px;
+    }
+    #facebook{
+      background-position-y: -44px;
+    }
+    #linkedin{
+      background-position-y: -129px;
+    }
+    #twitter{
+      background-position-y: -88px;
+    }
+    ul{
+  
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0px;
+    }
+  
+    a{
+  width: 43px !important;
+  height: 43px !important;
+    }
+    }
+    
+    }

@@ -1,13 +1,11 @@
 const path = require("path");
 const homepageJS = path.resolve(__dirname, "src/pages/homepage");
-const stickynavpageJS = path.resolve(__dirname, "src/pages/stickynavpage");
-const accordionpageJS = path.resolve(__dirname, "src/pages/accordionpage");
+//const jumbotronheroJS = path.resolve(__dirname, "src/pages/jumbotronheropage");
+
 
 module.exports = {
   entry: {
-    homepage: homepageJS,
-    stickynavpage: stickynavpageJS,
-    accordionpage: accordionpageJS
+    homepage: homepageJS
   },
   output: {
     path: path.resolve(__dirname, "dist"),
