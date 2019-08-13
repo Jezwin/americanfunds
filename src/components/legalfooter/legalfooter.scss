@@ -1,59 +1,50 @@
-.legalfooter{
-    background: #e5e5e5;
-    padding-top: 26px;
-    padding-bottom: 10px;
-   .col-md-6{
+.legalfooter {
+  background: #e5e5e5;
+  padding-top: 26px;
+  padding-bottom: 10px;
+  .col-md-6 {
     padding-left: 0px !important;
     padding-right: 0px !important;
-   }
-    p {
-      font-family: AvenirNextLTW01-Regular, Arial;
-      font-size: 12px;
-      margin-bottom: 40px;
-      font-family: "Avenir Next LT W01 Demi",Arial,sans-serif;
-      color: #666666;
-    }
-    a{
-      font-family: "Avenir Next LT W01 Demi",Arial,sans-serif;
-      font-size: 12px;
-      color: #1D5799;
-      padding-left: 6px;
-      padding-right: 6px;
-      display: inline !important;
-      padding-left: 0px !important;
-      
-    }
+  }
+  p {
+    font-family: AvenirNextLTW01-Regular, Arial;
+    font-size: 12px;
+    margin-bottom: 40px;
+    font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    color: #666666;
+  }
+  a {
+    font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    font-size: 12px;
+    color: #1d5799;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: inline !important;
+    padding-left: 0px !important;
+  }
 
-    .container80percent{
+  .container80percent {
     width: 80%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
-  
-   @media(max-width: 1000px) {
-  
-      .container80percent{
-          padding-left: 40px !important;
-          padding-right: 40px !important;
-          width: 100% !important;
-          
+
+  @media (max-width: 1000px) {
+    .container80percent {
+      padding-left: 40px !important;
+      padding-right: 40px !important;
+      width: 100% !important;
     }
   }
-  
-  
-  }
-  
-  
-   @media(max-width: 770px) {
-     .legalfooter{
-      p {
-      
+}
+
+@media (max-width: 770px) {
+  .legalfooter {
+    p {
       margin-top: 13px !important;
       margin-bottom: 0px !important;
-     
     }
-     }
   }
-  
+}

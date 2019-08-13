@@ -1,51 +1,42 @@
-.first{ 
+.stickynav {
+  overflow-x: hidden;
+  .first {
     max-height: 135px;
-    background: #00AEAA;
-    }
-    .second{ 
+    background: #00aeaa;
+  }
+  .second {
     max-height: 135px;
-    background: #00294B;
-    }
-    .third{ 
+    background: #00294b;
+  }
+  .third {
     max-height: 135px;
-    background: #0099E2;
-    }
-    
-    .col {
-      padding: 0px 0px 0px 0px !important;
-    }
-    a{
-      font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-    }
-    
-    .title{
-      font-size: 18px;
-      font-weight: bold;
-      color: #fff !important;
-    }
-    
-    .subtitle{
-      font-size: 13px;
-      color: #fff !important;
-    }
-    .new{
-      text-align: center;
-    }
-    
-    
-    @media (min-width: 1400px) {
-     .con{
-      margin: 0px 62px 0px 62px;
-      
-    }
-    }
+    background: #0099e2;
+  }
 
-.con{
-  overflow: hidden;
+  .col {
+    padding: 0px 0px 0px 0px !important;
+  }
+  a {
+    font-family: Avenir Next LT W01 Demi, Arial, sans-serif;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    color: #fff !important;
+  }
+  .new {
+    text-align: center;
+  }
 }
-    
-    
-    
-    
-    
-    
+
+@media (min-width: 1400px) {
+  .stickynav {
+    margin: 0px 62px 0px 62px;
+  }
+}

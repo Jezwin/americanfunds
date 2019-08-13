@@ -1,23 +1,23 @@
 .footsocial {
-    background: #e5e5e5;
-    padding-top: 26px;
+  background: #e5e5e5;
+  padding-top: 26px;
 
   ul {
     margin-bottom: 20px !important;
     padding-left: 0px !important;
   }
-  
+
   li {
     display: inline-block;
-    padding: 0 .5em;
-    font-family: "Avenir Next LT W01 Bold",Arial;
+    padding: 0 0.5em;
+    font-family: "Avenir Next LT W01 Bold", Arial;
     font-size: 14px;
 
-      &--border-right {
-        border-right: 1px #666 solid;
-      }
+    &--border-right {
+      border-right: 1px #666 solid;
+    }
   }
-  
+
   .container80percent {
     width: 80%;
     padding-right: 15px;
@@ -25,21 +25,14 @@
     margin-right: auto;
     margin-left: auto;
   }
-}  
-  
-@media(max-width: 1000px) {
+}
 
+@media (max-width: 1000px) {
   .footsocial {
-
     .container80percent {
       padding-left: 40px !important;
       padding-right: 40px !important;
       width: 100% !important;
-        
     }
   }
 }
-  
-
-
-

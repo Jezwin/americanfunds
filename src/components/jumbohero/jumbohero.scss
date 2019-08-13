@@ -1,61 +1,57 @@
-
-.img-fluid{
-    background: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-aperture-banner-3.jpg") no-repeat; 
- background-size: cover; 
- background-position:right center;
- background-repeat: no-repeat;
- width: 100%;
- height: auto;  
+.img-fluid {
+  background: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-aperture-banner-3.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 .jumbotron {
   padding-top: 5% !important;
   padding-bottom: 10% !important;
   margin-bottom: 0px;
 
-  &__title{
-    font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
+  &__title {
+    font-family: Avenir Next LT W01 Demi, Arial, sans-serif;
     font-size: 2rem;
     font-weight: 520;
-    
   }
 }
 
-
-@media (max-width: 1024px) { 
-.img-fluid{
-background: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-mobile-version.jpg") no-repeat; 
-background-size: cover; 
-background-position: center center;
-padding-top: 40%;
-}
+@media (max-width: 1024px) {
+  .img-fluid {
+    background: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-with-mobile-version.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 40%;
+  }
 }
 
 @media (max-width: 574px) {
-.img-fluid{
-  background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-banner-portrait.jpg") no-repeat !important;
-  background-position: center top;
+  .img-fluid {
+    background-image: url("https://www.americanfunds.com/content/dam/cgc/shared-content/images/banners/mother-holding-baby-cooing-banner-portrait.jpg")
+      no-repeat !important;
+    background-position: center top;
   }
 
   .jumbotron {
-  
-  &__title{
-  font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-  font-size: 18px;
-  font-weight: 500 !important;
-
- }
-  &__banner {
-    background: rgba(255,255,255,.8);
-    text-align: center;
-    display: block;
-    height: auto;
-    width: auto;
-    padding: 30px 20px;
- 
+    &__title {
+      font-family: Avenir Next LT W01 Demi, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 500 !important;
+    }
+    &__banner {
+      background: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      display: block;
+      height: auto;
+      width: auto;
+      padding: 30px 20px;
+    }
   }
-
-}
-  .lead{
+  .lead {
     font-size: 14px !important;
   }
 }
