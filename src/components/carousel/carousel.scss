@@ -56,6 +56,28 @@
 @media (min-width: 768px) {
     .mobile{
         display: none;
+        article {
+            a {
+                font-size: 14px !important;
+            }
+        }
+        .carousel-inner {
+
+            &__title {
+                font-size : 22px;
+                font-weight : 750;
+        
+                &--sub-22px{
+                    font-size: 17px;
+                    font-weight: 750;
+                    margin-bottom: 18px;
+                }
+            }
+        
+            .lead {
+                margin-bottom : 27px;
+            }
+        }
     }
     .desktop{
         display: block;

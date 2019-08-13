@@ -3,9 +3,11 @@
   background: #999999;
   padding-top: 24px;
   padding-bottom: 24px;
+  overflow-y: hidden;
 
   .card-header {
     background: #999999 !important;
+    border-radius: 0px !important;
      
     &--bordertop-1px {
       border-top: solid 1px white !important;
@@ -81,7 +83,7 @@
   
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 
   .footmenu {
     background: #fff !important;
