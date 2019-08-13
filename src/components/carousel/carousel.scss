@@ -1,110 +1,110 @@
-.carousel-indicators 
-{
-    position: relative;
-    top: 20px;
-    li{
-        
-        text-indent:0;
-        width:200px;
-        height: 40px;
-        background-color: transparent;
-        a{
-            color: black;
-            font-size:1.33rem;
-            text-decoration: none;
-            font-size: 24px;
+.carousel-indicators {
+    position : relative;
+    top : 20px;
+
+    li {
+        text-indent : 0;
+        width : 200px;
+        height : 40px;
+        background-color : transparent;
+    }
+
+    a {
+        color : black;
+        font-size : 1.33rem;
+        text-decoration : none;
+        font-size : 24px;
+    }
+
+    a:hover {
+        border-bottom : 4px solid #b42573;
+    }
+    
+    .active {
+
+        a {
+            font-weight : bold;
+            border-bottom : 4px solid #b42573;
         }
-        a:hover{
-            border-bottom: 4px solid #b42573;
+    }
+}
+.carousel-inner {
+
+    &__title {
+        font-size : 30px;
+        font-weight : 750;
+        margin-bottom : 21.6px;
+
+        &--sub-22px{
+            font-size: 22px;
+            font-weight: 750;
+            margin-bottom: 18px;
         }
-        
     }
-    .active{
-        a{
-            font-weight: bold;
-            border-bottom: 4px solid #b42573;
-        }
+
+    .lead {
+        margin-bottom : 27px;
     }
-}
-.carousel{
 
-&__title {
-    font-size: 30px;
-    font-weight: 750;
-    margin-bottom: 21.6px;
-}
-.lead {
-    //font-size: 22px;
-    margin-bottom: 27px;
-}
-
-.sub {
-    font-size: 22px;
-    font-weight: 750;
-    margin-bottom: 18px;
-}
-
-article {
-    padding-top: 5%;
-}
-}
-@media (max-width: 768px) {
-    .mob{
-        display: block;
-       
-    }
-    .desk{
-        display: none;
+    article {
+        padding-top: 5%;
     }
 
 }
+  
 
 @media (min-width: 768px) {
-    .mob{
+    .mobile{
         display: none;
     }
-    .desk{
+    .desktop{
         display: block;
     }
-
 }
 
 @media (max-width: 768px) {
-   
-   
+
     .carousel .carousel-item {
-      display: contents;
-      margin-top: 50px;
-      text-align: center;
+        display : contents;
+        margin-top : 50px;
+        text-align : center;
     }
 
     .carousel-indicators {
-        display: none;
-      }
-
-      .carousel-inner img {
-        display: block;
-        max-width: 500px;
-        margin: 0 auto !important;
-       
-      }
-     
-      .carousel{
+        display : none;
+    }
+  
+    .carousel-inner {
 
         &__title {
-            font-size: 22px !important;
-            font-weight: 750;
-            margin-bottom: 21.6px;
+            font-size : 22px !important;
+            font-weight : 750;
+            margin-bottom : 21.6px;
+
+            &--sub-22px{
+                font-size : 14px !important;
+                font-weight : 750;
+                margin-bottom : 14px;
+            }
         }
+
         .lead {
             font-size: 14px !important;
             margin-bottom: 27px;
         }
-        
-        .sub {
-            font-size: 14px !important;
-            font-weight: 750;
-            margin-bottom: 14px;
+
+        img {
+            display: block;
+            max-width: 500px;
+            margin: 0 auto !important;
         }
+    }  
+    
+    .mobile{
+        display: block;
+    
+    }
+    .desktop{
+        display: none;
+    }
 }  
-}
