@@ -1,17 +1,75 @@
 .footmenu {
+
   background: #999999;
   padding-top: 24px;
   padding-bottom: 24px;
-  @media (min-width:768px){
-    .accordionhide{
-        display: none!important;
+
+  .card-header {
+    background: #999999 !important;
+     
+    &--bordertop-1px {
+      border-top: solid 1px white !important;
     }
-    .listshow{
-      display: block!important;
+
+  }
+
+  .card-block {
+    background: #666666 !important;
+    padding: 0px;
+  }
+
+  h5 {
+    font: normal 12px/14px "Avenir Next LT W01 Bold",Arial;
+    padding: 0px 33px 0px;
+    color: #fff;
+    font-weight: bold;
+
+    &--mb-5rem {
+      margin-bottom: 1rem;
     }
-    
+
+  }
+
+  a {
+    font-family: "Avenir Next LT W01 Demi",Arial;
+    font-size: 12px;
+    line-height: 14px;
+    font-size: .85714285714285714285714285714286rem;
+    line-height: 1rem;
+    font-weight: bold;
+    color: #fff !important;
+    display: block;
+  
+  }
+
+  li {
+    padding: 0px 33px 13px;
+  }
+
+  ul {
+    padding: 10px 0px 15px!important;
+  }
+
+  .container80percent {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
 }
 
+@media(max-width: 1000px) {
+  .footmenu {
+
+    .container80percent{
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        width: 100% !important;   
+    } 
+  } 
+}
 
 @media (min-width:768px){
   .accordionhide{
@@ -24,112 +82,31 @@
 }
 
 @media (max-width: 768px){
-    .listhide{
-        display: none!important;
-    }
-    .accordionshow{
-      display: block!important;
-  }
-    
-}
-  
-  
 
-  .card-header {
-    background: #999999 !important;
-    
-    
-    &--bordertop-1px{
-      border-top: solid 1px white !important;
-    }
-  }
-
-  .card-block {
-    background: #666666 !important;
-    padding: 0px;
-  }
-
-
-
-  h5{
-    
-    font: normal 12px/14px "Avenir Next LT W01 Bold",Arial;
-    padding: 0px 33px 0px;
-    color: #fff;
-    font-weight: bold;
-
-    &--mb-5rem{
-      margin-bottom: 1rem;
-    }
-  }
-
-  a{
-
-    font-family: "Avenir Next LT W01 Demi",Arial;
-    font-size: 12px;
-    line-height: 14px;
-    font-size: .85714285714285714285714285714286rem;
-    line-height: 1rem;
-    font-weight: bold;
-    color: #fff !important;
-    display: block;
-  
-  }
-  li {
-    padding: 0px 33px 13px;
-  }
-
-  ul {
-    padding: 10px 0px 15px!important;
-  }
-  .container80percent{
-    width: 80%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-  }
-  
-   @media(max-width: 1000px) {
-  
-      .container80percent{
-          padding-left: 40px !important;
-          padding-right: 40px !important;
-          width: 100% !important;
-          
-    }
-    
-  }
-  @media(max-width: 768px) {
-  
-    .container80percent{
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-        width: 100% !important;
-          
-        
-  }
-
- 
-}
-
- 
-    
-  
-}
-
-@media (max-width: 768px){
-  .footmenu{
+  .footmenu {
     background: #fff !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
-    ul{
-      margin-bottom: 0px !important;
-    }
-    
-  }
-  
 
+    ul {
+      margin-bottom: 0px !important;
+    }  
+
+    .container80percent {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      width: 100% !important;      
+    }
+  }
+
+  .listhide {
+      display: none!important;
+  }
+
+  .accordionshow {
+    display: block!important;
+  }
+    
 }
 
 
