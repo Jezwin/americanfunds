@@ -15,11 +15,16 @@
     font-family: "AvenirNextLTCom-Bold";
     letter-spacing: 1.5px;
   }
-  .fourdivimg {
-    max-width: 100% !important;
-    margin-top: 20% !important;
-    margin-bottom: auto !important;
-  }
+  @media (max-width: 1200px){
+    .fourdivimg {
+      padding-top: 10px;
+      margin-top: 5% !important;
+      margin-bottom: auto !important;
+    }
+
+} 
+
+  
   .transicon {
     width: 64px;
     height: 64px;
