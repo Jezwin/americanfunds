@@ -17,6 +17,11 @@
     font-size: 2rem;
     font-weight: 520;
   }
+
+  &__watermark {
+    position: absolute;
+    right: 20px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -36,20 +41,26 @@
     background-position: center top;
   }
 
+
   .jumbotron {
     &__title {
       font-family: Avenir Next LT W01 Demi, Arial, sans-serif;
       font-size: 18px;
       font-weight: 500 !important;
     }
+    
     &__banner {
       background: rgba(255, 255, 255, 0.8);
+      top: 50px;
       text-align: center;
       display: block;
       height: auto;
       width: auto;
       padding: 30px 20px;
+      margin-top: 104px;
     }
+
+     
   }
   .lead {
     font-size: 14px !important;
