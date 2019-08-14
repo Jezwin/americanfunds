@@ -17,12 +17,15 @@
   }
   @media (max-width: 1200px){
     .fourdivimg {
+      max-width: 100%;
+    }
+  }
+    .fourdivimg {
       padding-top: 10px;
       margin-top: 5% !important;
       margin-bottom: auto !important;
     }
 
-} 
 
   
   .transicon {

@@ -1,6 +1,12 @@
 .artwimage {
     background-color : #0099e2 !important;
 
+    &__maxwidth770px{
+        max-width: 770px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     &__content {
         font-size : 1.22222rem;
         padding : 2.22222rem 1.66667rem;
