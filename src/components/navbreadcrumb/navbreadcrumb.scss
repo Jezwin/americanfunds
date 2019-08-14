@@ -6,6 +6,9 @@
     display: block !important;
   }
 }
+.navbar-nav {
+  padding-top: 23px;
+}
 
 @media (max-width: 767px) {
   .sm-hide {
@@ -14,6 +17,10 @@
   .sm-show {
     display: block !important;
   }
+}
+
+a.nav-link {
+  color: black !important;
 }
 .mainnav {
   padding: 0;
@@ -71,6 +78,10 @@
   }
 
   @media (max-width: 1024px) and (min-width: 767px) {
+    .navbar-nav {
+      padding-top: 0px !important;
+      //padding-bottom: 30px !important;
+    }
     #navbarToggler {
       ul {
         width: 100%;
@@ -90,15 +101,13 @@
 .utilitybar {
   background-color: black;
   height: 32px;
-  .col-lg-4.col-md-4,
-  .left,
-  ul,
-  li,
-  a {
-    height: 32px;
+  .col-lg-4.col-md-4,.left,ul,li,a {
+    height: inherit;
     margin: 0;
     padding: 0;
+    
   }
+  
   .col-lg-4.col-md-4 {
     a {
       padding: 10px 35px 10px 35px;

@@ -1,13 +1,14 @@
-.artinfo {
+.learn {
   padding-top: 18px;
   padding-bottom: 100px;
-  margin-left: 62px;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top: 5%;
   text-align: center;
   h2 {
-    font-size: 2rem;
+    font-size: 36px;
     font-family: "AvenirNextLTCom-Demi";
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1.371;
     color: #333333;
   }
@@ -16,11 +17,13 @@
     font-size: 14px;
     letter-spacing: 1.5px;
   }
+  
 
   .display-4 {
     font-size: 22px;
     color: #333333;
-    max-width: 735px;
+    max-width: 750px;
+    line-height: 1.6;
     margin-left: auto;
     margin-right: auto;
     font-family: "AvenirNextLTCom-Regular", Arial, sans-serif,

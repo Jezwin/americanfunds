@@ -1,4 +1,21 @@
 .breadcrumb {
     background-color : #fff !important;
     padding-left : 10%;
+    margin-bottom: 31px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "AvenirNextLTCom-Regular",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    a{
+        color: #1D5799;
+    }
 }   
+.breadcrumb-item.active {
+    color: #333333 ;
+}
+@media (max-width: 1024px) {
+    .breadcrumb{
+    padding-left: 5%;
+    margin-bottom: 31px;
+    padding-top: 31px;
+    }
+}
