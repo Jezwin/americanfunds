@@ -5441,6 +5441,15 @@ a.text-dark:hover, a.text-dark:focus {
   .sm-show {
     display: block !important; } }
 
+.navbar-toggler {
+  border: 0;
+  position: absolute;
+  top: 15px;
+  right: -9px; }
+
+a#qwe {
+  padding-left: 43px !important; }
+
 a.nav-link {
   color: black !important; }
 
@@ -5479,6 +5488,8 @@ a.nav-link {
         margin: 0; }
       .mainnav #navbarToggler .search {
         padding-top: 60px; } }
+  .mainnav .utilitybar .left li a {
+    padding: 0px 0px 0px 0px !important; }
   @media (max-width: 1024px) and (min-width: 767px) {
     .mainnav .navbar-nav {
       padding-top: 0px !important;

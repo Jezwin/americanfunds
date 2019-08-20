@@ -18,6 +18,15 @@
     display: block !important;
   }
 }
+.navbar-toggler {
+  border: 0;
+  position: absolute;
+  top: 15px;
+  right: -9px;
+}
+a#qwe {
+  padding-left: 43px !important;
+}
 
 a.nav-link {
   color: black !important;
@@ -76,6 +85,10 @@ a.nav-link {
       }
     }
   }
+
+  .utilitybar .left li a {
+    padding: 0px 0px 0px 0px !important;
+}
 
   @media (max-width: 1024px) and (min-width: 767px) {
     .navbar-nav {
